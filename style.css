@@ -1,0 +1,56 @@
+body {
+    height: 97vh;
+    font-weight: 200;
+
+    background-image: linear-gradient(to bottom right, #f7b600, #f7de00);
+
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    background: linear-gradient(to bottom right, #c820eb, #f566f7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h3 {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+h4 {
+      margin: 18.5px;
+      font-family: 'Quicksand', sans-serif;
+}
+
+  /*Logo Discord, GitHub*/
+svg {
+    height: 35px;
+    width: 35px;
+
+    margin: 15px;
+
+}
+
+a {
+    color: #ffffff;
+    transition: color ease-in-out 0.2s;
+}
+
+a:hover {
+    color: #b706ca;
+}
+
+.links {
+    margin-top: 1vh;
+    display: flex;
+}
